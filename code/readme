@@ -1,4 +1,4 @@
 
-# 0_download_13d.py is the file to download the SC 13D according to the compiled index file (list_13d.csv), which is uploaded under the data folder. We downloaded all EDGAR indices and used SAS to constrct list_13d.csv, the needed file list
+# 0_download_13d.py is the file to download the SC 13D according to the compiled index file (list_13d.csv), which is uploaded under the data folder. Prior to this step, we downloaded all EDGAR indices (using wget) and used SAS to constrct list_13d.csv, the needed file list.
 # 1_parse_13d_test.py is the step to parse and extract CUSIP
 # 2_sklearn.py applies the scikit learn
